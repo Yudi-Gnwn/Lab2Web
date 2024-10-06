@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Dasar</title>
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      header {
+        min-height: 80px;
+        border-bottom: 1px solid #77ccef;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #0f189f;
+        text-align: center;
+        padding: 20px 10px;
+      }
+
+      h1 i {
+        color: #6d6a6b;
+      }
+    </style>
+    <!-- koneksi ke eksternal css -->
+     <link rel="stylesheet" href="C:\xampp\htdocs\lab1web\style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
+    <nav>
+      <a href="html_Dasar.html">masuk untuk belajar HTML</a>
+      <a href="css_Dasar.html">masuk untuk belajar CSS</a>
+    </nav>
+
+    <!-- css id selector -->
+    <div id="content">
+      <h1>Belajar HTML</h1>
+      <p style="text-align: center; color: #ccd8e4;">
+        Kami sedang belajar HTML dasar, pada <i>matakuliah Pemrograman WEB</i> di
+        Prodi <sub>Teknik Informatika</sub><sup>Universitas Pelita Bangsa</sup>.<br />
+        Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana
+        dalam rangka mengenal <b>tag-tag dasar HTML.</b>
+      </p>  
+   
+    <!-- CSS class selector -->
+    <a class="button btn-primary" href="https://ecampus.pelitabangsa.university/pb/main">Login ke E-Campus</a>
+    </div>
+  </body>
+</html>
