@@ -6,7 +6,7 @@ kita bisa menggunakan CSS internal (di dalam html) atau CSS eksternal (dengan me
 
 terlebih dahulu buatlah file dengan nama style.css
 
-![Screenshot 2024-10-06 104617](https://github.com/user-attachments/assets/b257768d-5774-432e-9322-7ede06fc8473)
+![Screenshot 2024-10-26 214603](https://github.com/user-attachments/assets/33af5a11-2874-49a0-9103-569bec37c71d)
 
 kemudian kita bisa menambahkan Id selector dan Class selector di file html untuk dapat dipanggil di dalam CSS
 
